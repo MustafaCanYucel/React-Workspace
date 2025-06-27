@@ -1,0 +1,57 @@
+.course-main{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+
+}
+.course{
+    width: 300px;
+    height: 340px;
+    border: 1px solid lightgrey;
+    padding: 30;
+    margin: 5px;
+    border-radius: 10px;
+    background-color: azure;
+}
+.course-title{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+
+}
+.course-desc{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 10px;
+
+}
+.course-price{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: red;
+    text-align: right;
+    padding-right: 20px;
+}
+.course-link{
+    font-size: 12px;
+    text-align: right;
+    padding-right: 10px;
+}
+a {
+        text-decoration:none;
+
+}
+.course-card {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.course-card:hover {
+  transform: scale(1.03); 
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+}
+
+.course-card:active {
+  transform: scale(0.98); 
+}
